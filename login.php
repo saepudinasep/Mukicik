@@ -128,6 +128,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           <div class="row mb-3">
             <div class="col-sm-8 offset-sm-2">
               <button type="submit" class="btn btn-primary">Login</button>
+              <!-- Tambahkan button/link "Forgot Password" -->
+              <a href="forgot_password.php" class="btn btn-link text-decoration-none">Forgot Password?</a>
             </div>
           </div>
           <?php
